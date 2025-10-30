@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Our Platform</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        * {
+       * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -161,59 +152,3 @@
                 display: none;
             }
         }
-    </style>
-</head>
-<body>
-    <header class="header">
-        <nav class="nav">
-            <div class="logo">YourBrand</div>
-            <div class="nav-links">
-                <a href="#features">Features</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Transform Your Ideas Into Reality</h1>
-            <p class="hero-subtitle">Discover the power of innovation with our cutting-edge platform. Start your journey today and unlock endless possibilities.</p>
-            <a href="#features" class="cta-button">Get Started</a>
-        </div>
-    </section>
-
-    <section id="features" class="features">
-        <h2 class="section-title">Our Features</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <h3>Innovative Design</h3>
-                <p>Create stunning designs with our intuitive tools and modern templates.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Smart Analytics</h3>
-                <p>Make data-driven decisions with powerful analytics and insights.</p>
-            </div>
-            <div class="feature-card">
-                <h3>24/7 Support</h3>
-                <p>Get help whenever you need it with our dedicated support team.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2 class="section-title">Contact Us</h2>
-        <form class="contact-form">
-            <div class="form-group">
-                <input type="text" placeholder="Your Name" required>
-            </div>
-            <div class="form-group">
-                <input type="email" placeholder="Your Email" required>
-            </div>
-            <div class="form-group">
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="submit-button">Send Message</button>
-        </form>
-    </section>
-</body>
-</html>
